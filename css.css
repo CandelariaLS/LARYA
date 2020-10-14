@@ -1,0 +1,140 @@
+/* f span*/
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+/* font a */
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
+/* pal h2 */
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Spectral+SC:ital,wght@0,500;1,300&display=swap');
+/* h3 */
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Spectral+SC:ital,wght@1,300&display=swap');
+
+
+span{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 100px;
+    text-decoration: none;
+    color: red;
+}
+
+body{
+    margin:0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+a{
+    margin:30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Spectral SC', serif;
+}
+a:hover{
+    color: #8E0200;
+    text-decoration: line-through;
+}
+main{
+    padding:5% 20% 0% 20%;
+    background-color: #000000;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    height: 4800px;
+    box-sizing: border-box;
+
+}
+header{
+    height: 1000px;
+    background-color: #230000;
+    background-image: url(img/p.jpg);
+    background-size: cover;
+}
+footer{
+    background-color:#850000;
+    padding:3% 25% 0% 25%;
+    height: 800px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+#fila1,#fila2,#fila3,#fila4{
+    display: flex;
+    flex-direction: row;
+}
+iframe{
+    margin: 0px 15px 15px 0px;
+}
+.card{
+    background-color: #00000000;  
+}
+
+/* cosito de portada */
+#portada{
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 0px 16px 0px;
+    border:1px solid black;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    left: 10%;
+    top:30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 7px;
+}
+h2{
+    margin: 10% 0% 0% 32%;
+    float:center;
+    background-color: rgba(129, 19, 19, 0.356);
+    color: rgb(255, 255, 255);
+    padding:15px;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Spectral SC', serif;
+}
+h2:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(4, 46, 23) ;
+}/*aca termina cosito portada*/
+.fotos{
+    width: 32%;
+    margin-top: 20px;
+}
+.fotos:hover{
+    transform: scale(1.9);
+    box-shadow: 2px 2px 2px black;
+}
+.caja{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    text-align: center;
+}
+#caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding:0% 20% 0% 20%;
+}
+.redes{
+
+    margin: 30px;
+    justify-items: center;
+}
+h1{
+    font-size: 5em;
+    color: rgb(143, 7, 7);
+    text-align: center;
+    font-family: 'Mrs Saint Delafield', cursive;
+    
+}
+h3{
+    color: rgb(12, 104, 68);
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Spectral SC', serif;
+}
+
